@@ -13,7 +13,17 @@
 </head>
 
 <body>
-
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form>
+                <h2 id="end-text">Enter Your Name & Save Your Score!</h2>
+                <input type="text" name="name" id="username" placeholder="Enter Your Name">
+                <button class="btn" id="saveScoreBtn" type="submit" onClick="saveHighScore(event)"
+                    disabled>Save</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
