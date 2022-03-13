@@ -43,3 +43,6 @@ let questions = [{
         answer: 4,
     }
 ]
+
+const SCORE_POINTS = 100;
+const MAX_QUESTIONS = 4
