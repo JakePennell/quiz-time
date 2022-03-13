@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
 body {
-    background-color: gray;
+    background-color: #b0b3b8;
 }
 
 * {
@@ -62,7 +62,7 @@ h2 {
     text-align: center;
     margin-bottom: 1rem;
     color: black;
-    background: lightskyblue;
+    background: #08f7fe;
     text-decoration: none;
     border-radius: 25px;
 }
@@ -78,7 +78,7 @@ h2 {
 }
 
 #leaderboard-btn {
-    background: goldenrod;
+    background: #f5d300;
 }
 
 .choice-container {
@@ -86,10 +86,11 @@ h2 {
     margin-bottom: 0.5rem;
     width: 100%;
     border-radius: 25px;
-    background: lightskyblue;
+    background: #440bd4;
     font-size: 3rem;
     min-width: 80rem;
     padding: 0.5rem;
+    color: whitesmoke;
 }
 
 .choice-container:hover {
@@ -107,11 +108,11 @@ h2 {
 }
 
 .correct {
-    background: green;
+    background: #7fff00;
 }
 
 .incorrect {
-    background: red;
+    background: #ff1818;
 }
 
 /*Heads Up Display*/
@@ -132,7 +133,7 @@ h2 {
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid green;
+    border: 0.2rem solid black;
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -140,7 +141,7 @@ h2 {
 
 #progressBarFull {
     height: 100%;
-    background: green;
+    background: #440bd4;
     width: 0%;
 }
 
