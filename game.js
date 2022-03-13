@@ -11,41 +11,90 @@ let questionCounter = 0;
 let availableQuestions = []
 
 let questions = [{
-        question: 'What is 2 + 2?',
-        Choice1: "2",
-        Choice2: "4",
-        Choice3: "21",
-        Choice4: "17",
-        answer: 2,
-    },
-    {
-        question: 'What the capital of England?',
-        Choice1: "London",
-        Choice2: "Paris",
-        Choice3: "Madrid",
-        Choice4: "Rome",
+        question: 'What is the biggest city in the world by population?',
+        choice1: 'Beijing',
+        choice2: 'Moscow',
+        choice3: 'Tokyo',
+        choice4: 'London',
         answer: 1,
     },
     {
-        question: 'What team does Harry Kane play for?',
-        Choice1: "Man Utd",
-        Choice2: "Man City",
-        Choice3: "Spurs",
-        Choice4: "Chelsea",
+        question: 'Which country won the first ever FIFA World Cup in 1930 ?',
+        choice1: 'Spain',
+        choice2: 'Brazil',
+        choice3: 'Uruguay',
+        choice4: 'France',
         answer: 3,
     },
     {
-        question: 'What is the hottest planet?',
-        Choice1: "Earth",
-        Choice2: "Mars",
-        Choice3: "Saturn",
-        Choice4: "Venus",
+        question: 'Which nuts are used in marzipan ?',
+        choice1: 'Almonds',
+        choice2: 'Brazil Nuts',
+        choice3: 'Pecans',
+        choice4: 'Cashews',
+        answer: 1,
+    },
+    {
+        question: 'Which actor played Private Ryan in Saving Private Ryan ?',
+        choice1: 'Tom Hanks',
+        choice2: 'Vin Disel',
+        choice3: 'Edward Norton',
+        choice4: 'Matt Damon',
         answer: 4,
+    },
+    {
+        question: 'What is 5 x 5 x 5 ?',
+        choice1: '100',
+        choice2: '125',
+        choice3: '150',
+        choice4: '225',
+        answer: 2,
+    },
+    {
+        question: 'Which spirit is used in a Pina Colada cocktail ?',
+        choice1: 'Vodka',
+        choice2: 'Gin',
+        choice3: 'Whisky',
+        choice4: 'Rum',
+        answer: 4,
+    },
+    {
+        question: 'Foo Fighters frontman Dave Grohl started out in which other legendary band ?',
+        choice1: 'The Beatles',
+        choice2: 'Slipknot',
+        choice3: 'Nirvana',
+        choice4: 'Pearl Jam',
+        answer: 3,
+    },
+    {
+        question: 'What is the collective noun for group of Crows ?',
+        choice1: 'Bunch',
+        choice2: 'Mob',
+        choice3: 'Murder',
+        choice4: 'Herd',
+        answer: 3,
+    },
+    {
+        question: 'How many bones are in an adult human body ?',
+        choice1: '201',
+        choice2: '206',
+        choice3: '233',
+        choice4: '236',
+        answer: 2,
+    },
+    {
+        question: 'What is the most used colour in national flags ?',
+        choice1: 'Red',
+        choice2: 'Blue',
+        choice3: 'White',
+        choice4: 'Yellow',
+        answer: 1,
     }
+
 ]
 
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 4;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
     questionCounter = 0;
