@@ -176,6 +176,16 @@ input::placeholder {
     text-align: center;
 }
 
+#highScoresList {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.high-score {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+
+}
 
 @media screen and (max-width: 768px) {
     .choice-container {
