@@ -187,8 +187,24 @@ input::placeholder {
     margin-bottom: 0.5rem;
 }
 
+/*Media query for medium to small screens of 768px and down*/
 @media screen and (max-width: 768px) {
     .choice-container {
-        min-width: 30rem;
+        min-width: 90%;
     }
+}
+
+/*Media query for smaller screens of 500px and down*/
+@media screen and (max-width: 500px) {
+    h1 {
+        max-width: 90%;
+        display: flex;
+    }
+
+    .container {
+        max-width: 90%;
+        display: flex;
+    }
+
+
 }
