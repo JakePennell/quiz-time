@@ -1,5 +1,6 @@
-const highScoresList = document.querySelector('highScoresList');
-const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+const highScoresList = document.querySelector('#highScoresList');
+const highScores = JSON.parse(localStorage.getItem('highScore')) || [];
+
 
 highScoresList.innerHTML =
     highScores.map(score => {

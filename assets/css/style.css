@@ -195,7 +195,7 @@ input::placeholder {
 }
 
 /*Media query for smaller screens of 500px and down*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     h1 {
         max-width: 90%;
         display: flex;
