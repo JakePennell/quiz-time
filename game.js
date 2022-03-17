@@ -1,15 +1,18 @@
+//Create basic const functions.//
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('p#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 
+//Call the various functions created.//
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = []
 
+//Question list written by myself.//
 let questions = [{
         question: 'What is the biggest city in the world by population?',
         choice1: 'Beijing',
@@ -92,10 +95,11 @@ let questions = [{
     }
 
 ]
-
+//Set out points for correct answers and maximum question count.//
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
 
+//Start game function.//
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -103,6 +107,7 @@ startGame = () => {
     getNewQuestion();
 }
 
+//Call new question once each completed.//
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
@@ -129,6 +134,7 @@ getNewQuestion = () => {
     acceptingAnswers = true;
 }
 
+//Determine correct or incorrect result.//
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if (!acceptingAnswers) return
@@ -152,6 +158,7 @@ choices.forEach(choice => {
     })
 })
 
+//Adds score to live score tracker.//
 incrementScore = num => {
     score += num
     scoreText.innerText = score

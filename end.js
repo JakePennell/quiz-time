@@ -1,3 +1,4 @@
+//Create basic const functions.//
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');
 const finalScore = document.querySelector('#finalScore');
@@ -7,6 +8,7 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 const MAX_HIGH_SCORES = 5;
 
+//Save the user score to local storage to display on leaderboard.//
 finalScore.innerText = mostRecentScore;
 
 username.addEventListener('keyup', () => {
