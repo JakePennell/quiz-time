@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!--The top of the game section has a cool question progress bar and counts up through the questions, indicating remaining questions.-->
     <div class="container">
         <div id="game" class="justify-center flex-column">
             <div id="hud">
@@ -24,6 +25,7 @@
                         <div id="progressBarFull"></div>
                     </div>
                 </div>
+                <!--The score is added and displayed for the user to track success.-->
                 <div class="hud-item">
                     <p class="hud-prefix">
                         Score
@@ -33,6 +35,8 @@
                     </h1>
                 </div>
             </div>
+            <!--The questions are displayed as H2s followed by 4 multiple choice questions. If the correct score is clicked, the question highlights
+            in green. Selecting the wrong answer will highlight the box red.-->
             <h2 id="question">What is the answer to this question?</h2>
             <div class="choice-container">
                 <p class="choice-prefix">A</p>
