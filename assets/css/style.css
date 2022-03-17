@@ -1,5 +1,7 @@
+/*Add google fonts link.*/
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
+/*Set out basic structure and theme for the game.*/
 body {
     background-color: #b0b3b8;
 }
@@ -22,6 +24,7 @@ h2 {
     margin-bottom: 3rem;
 }
 
+/*This container is used throughout the project as a standard template.*/
 .container {
     width: 100vw;
     display: flex;
@@ -55,6 +58,7 @@ h2 {
     display: none;
 }
 
+/*Not all buttons are the same but the majority use this basic structure.*/
 .btn {
     font-size: 3rem;
     padding: 1.5rem;
@@ -67,6 +71,7 @@ h2 {
     border-radius: 25px;
 }
 
+/*Add hover effectto inprove user visual expereince.*/
 .btn:hover {
     cursor: pointer;
     transform: scale(1.05);
@@ -107,6 +112,7 @@ h2 {
     width: 100%;
 }
 
+/*To add to the sense jeopardy, the correct answer highlights green and incorrect highlights red.*/
 .correct {
     background: #7fff00;
 }
@@ -130,6 +136,7 @@ h2 {
     text-align: center;
 }
 
+/*Progress bar added to help user keep track of progress.*/
 #progressBar {
     width: 20rem;
     height: 3rem;
@@ -139,6 +146,7 @@ h2 {
     overflow: hidden;
 }
 
+/*Fills up 10% after each question is answered.*/
 #progressBarFull {
     height: 100%;
     background: #440bd4;
@@ -153,6 +161,7 @@ h2 {
     max-width: 30rem;
 }
 
+/*Save button to save user score and send to leaderboard.*/
 input {
     margin-bottom: 1rem;
     width: 10rem;
@@ -195,7 +204,7 @@ input::placeholder {
 }
 
 /*Media query for smaller screens of 500px and down*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
     h1 {
         max-width: 90%;
         display: flex;
