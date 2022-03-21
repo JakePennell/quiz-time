@@ -27,7 +27,7 @@ h2 {
 
 /*This container is used throughout the project as a standard template.*/
 .container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
