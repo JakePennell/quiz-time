@@ -1,108 +1,154 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quiz Time!
 
-Welcome JakePennell,
+## Hello and welcome to my second Portfolio Project for my Diploma in Software Development (E-commerce Applications). 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+For this project, I have created a fun & interactive, mulitple choice quiz. The aim of my site is to encourage individuals to take part in the quiz, testing their general knowledge skills, and saving their score to see how they have done against other users. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This leaderboard element adds a much needed sense of competition and will inspite the user to continue playing.
 
-## Gitpod Reminders
+You can see my website here: [Quiz Time!](https://jakepennell.github.io/quiz-time/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Am I Responsive Image](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/am-i-responsive-readme.png)
 
-`python3 -m http.server`
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+#### First Time Visitors
+- As a First Time Visitor, I want it to be easy to understand what the purpose of the site is. 
+- As a First Time Visitor, I want to be able to find my around the website easily using simple navigation buttons.
+- As a First Time Visitor, I want to be able to easily understand my score.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Returning Visitor Goals
+- As a Returning Visitor, I want to be able to measure my improvment by comparing scores.
+- As a Returning Visitor, I want to navigate the site without any real thought.
 
-A blue button should appear to click: _Make Public_,
+#### Frequent User Goals
+- As a Frequent User, I want to check if there has been any changes to the leaderboard.
+- As a Frequent User, I want feel part of the community by competing against other users.
 
-Another blue button should appear to click: _Open Browser_.
+## Design
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Colour Scheme
+- To maintain a strong, bold feel to the website, in keeping with the theme of Boxing, I have chosen a distinctive colour scheme. 
+- The dark grey and black backgrounds are contrasted by an off-white, almost Ivory shade of white. 
+- To add a pop of colour, I have used a neon purple in places. I have kept this to a minimal to ensure it stands out.
+### Typography
+- The two fonts used are Oxygen & Heebo with Sans Serif acting as a fallback if the fonts aren't imported correctly. 
+- Oxygen & Heebo compliment the Colour Scheme and general theme as they are strong and bold in style. 
+### Imagery
+- I have used very bold, striking images throughout the website. Capturing the community spirit of hard-working individuals.
 
-To log into the Heroku toolbelt CLI:
+## Existing Features
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Logo
+- The Logo I created is a strong, bold logo that sets the theme for the whole project. 
+- It acts as an anchor to bring the user back to the home page when clicked. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Navigation
+- The Navigation Bar is a clear and concise directory with fully working links to the Home, Gallery and Contact Us pages. 
+- It is style with an underline for the active page and when hovered over, it changes colour to the neon purple that appears subtly throughout the website.
 
-------
+![Logo and Nav Bar Screenshot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/logo-nav-readme.png)
 
-## Release History
+### Hero Image
+- The Hero Image is a powerful image that draws the viewers attention to the fact this website is designed with boxing in mind. 
+- The animation used to slowly zoom out gives it added visual appeal.
+- The overlying text states in clear and simple terms what the business is and where it is based. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Hero image with text overlay Screenshot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/hero-image-readme.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### About Us Bio
+- The About Us section is a basic 'bio' of the business.
+- It is designed to portray the message that this club is accessible to all ages and skill levels. 
+- The styling is in keeping with the general them.
+- I have included a call to action by signing up for a free class. This is delivered via a working link to the contact us page. Highlighted by bold and colourful text.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### About Us Image 
+- This black and white image of a man boxing serves to break up the about us section and the timetable. Without this, the home page would be too wordy and not visually appealing.  
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![About Us Screenshot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/about-us-readme.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Timetable
+- The simple box method works really well to show the viewer what classes are available and when. 
+- The icons are an added bit of visuals to make the section more interesting viewing. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Timetable Screenshot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/timetable-readme.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Contact Us
+- The Contact Us section provides the businesses address and contact details, making it easy for the viewer to make contact. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Footer
+- The footer is a simple but effective selection of fully working social media links, displayed as icons.
+- The icons are style similarly to the Nav options, in that they highlight in purple when hovered over. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Contact Us and Footer Screenshot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/contact-us-footer-readme.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Gallery 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- The Gallery page is used to show the viewer what they can expect at one of the classes. 
+- The styling is simple but effective with a tiled effect, images separated by a thin white border. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Gallery Page Screenhot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/gallery-readme.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Contact Us Page
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- As mentioned in the About Us section, the website offers the viewer the chance to claim a free class. 
+- This is achieved by completing the contact form and selecting the desired goal. Fitness, Boxing Skills or Self-defence. 
+- I have used the https://formdump.codeinstitute.net as the destination for the submitted data as it is just a 'dummy' form.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Contact Us Page Screenhot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/contact-us-readme.png)
 
-------
+## Future Features
 
-## FAQ about the uptime script
+To further improve my website, I would like to add additional features in the future These include:
+1. A map of where the gym can be found.
+2. A 'meet the team' page with a personal bio of the gym trainers.
+3. Videos of classes in session as part of the Gallery page.
 
-**Why have you added this script?**
+## Testing
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. All the Navigation, Social Media and Internal links work as designed. As well as the contact us / sign up page.
 
-**How will this affect me?**
+### Validation
+- HTML: No errors were returned when passing through the official W3C validator.
+- CSS: No errors were found when passing through the official W3C validator.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Lighthouse
+- My lighthouse scores are very strong. Particularly the accessibility score which is 96. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Lighthouse](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/lighthouse-readme.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Bugs
 
-**So….?**
+I encountered several bugs along my journey. The main issues were around content display and responsiveness.
+- Section Heights: I had originally given each section of a defined height. This meant that although they looked fine on my desktop, they would not respond to my effort to make the website responsive on different devises. This was resolved by removing the height value on various sections. 
+- My navigation links overlapped on smaller devices. My initial solution was to reduce the text size but that negatively affected the aesthetics of the site. Therefore, to fix this I used the display: flex function to re-order the Nav links. 
+- My Social Media links were also problematic as they were stacking on smaller devices. This was due to unnecessarily large border and margins. When these were reduced, the links lined up a behaved how I intended. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Unfixed Bugs
 
-**Can I opt out?**
+I have no unfixed bugs. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Deployment 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+This website was deployed to GitHub pages. The steps to deploy are as follows:
 
-**Anything more?**
+1. In the GitHub repository, navigate to settings tab.
+2. From the source section drop-down menu, select the Master Branch.
+3. Once the Master Branch has been selected, the page provided the link to the completed website.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- Here is the link to the repository: [My Repository](https://github.com/JakePennell/the-box-hub)
+- Here is the link to the live website: [The Box Hub](https://jakepennell.github.io/the-box-hub/)
 
----
+## Credits
 
-Happy coding!
+### Content
+- The Slack Community were amazing and helped me fix bugs and improve my designs throughout my project.
+- My mentor Jack gave me numerous suggestions on layout and section sizing to make my website more visually appealing. 
+- I used W3C regularly for bug fixes and suggested features.
+- The code in the CI Love Running Project served as inspiration for my website within many places. No coded directly used but used as inspiration to create my own.
+
+### Media
+- All my images are from: [Pexels](https://www.pexels.com/)
+- All my Icons are from : [Font Awesome](https://fontawesome.com/)
