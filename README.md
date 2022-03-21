@@ -30,14 +30,13 @@ You can see my website here: [Quiz Time!](https://jakepennell.github.io/quiz-tim
 ## Design
 
 #### Colour Scheme
-- To maintain a strong, bold feel to the website, in keeping with the theme of Boxing, I have chosen a distinctive colour scheme. 
-- The dark grey and black backgrounds are contrasted by an off-white, almost Ivory shade of white. 
-- To add a pop of colour, I have used a neon purple in places. I have kept this to a minimal to ensure it stands out.
+- I have used a very distinctive colour scheme t catch the users eye. The dark background coupled with the bright, almost neon colours, are very striking. 
+- The leaderboard is a gold colour to match the throphy asthetic. 
 ### Typography
-- The two fonts used are Oxygen & Heebo with Sans Serif acting as a fallback if the fonts aren't imported correctly. 
-- Oxygen & Heebo compliment the Colour Scheme and general theme as they are strong and bold in style. 
-### Imagery
-- I have used very bold, striking images throughout the website. Capturing the community spirit of hard-working individuals.
+- I have used Kanit as my main font, which  imported from Google Fonts. Also, Sans Serif acting as a fallback if the fonts aren't imported correctly. 
+- I chose Kanit as I beleive it has strong game vibes which is what my website aims to acheive. 
+
+BREAK HERE
 
 ## Existing Features
 
