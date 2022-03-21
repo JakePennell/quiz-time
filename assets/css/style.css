@@ -199,24 +199,28 @@ input::placeholder {
     margin-bottom: 0.5rem;
 }
 
-/*Media query for medium to small screens of 768px and down*/
-@media screen and (max-width: 768px) {
-    .choice-container {
-        min-width: 90%;
+/*Media query for screens of 500px and down*/
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .btn {
+        width: 20rem;
+        font-size: 2.5rem;
+        padding: 1rem;
     }
 }
 
-/*Media query for smaller screens of 320px and down*/
-@media screen and (max-width: 320px) {
+/*Media query for screens of 400px and down*/
+@media screen and (max-width: 400px) {
     h1 {
-        max-width: 90%;
-        display: flex;
+        font-size: 3rem;
     }
 
-    .container {
-        max-width: 90%;
-        display: flex;
+    .btn {
+        width: 15rem;
+        font-size: 1.5rem;
+        padding: 1rem;
     }
-
-
 }
