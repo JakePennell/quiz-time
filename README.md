@@ -13,63 +13,31 @@ You can see my website here: [Quiz Time!](https://jakepennell.github.io/quiz-tim
 ## Existing Features
 
 ### The Home Page
-- The Logo I created is a strong, bold logo that sets the theme for the whole project. 
-- It acts as an anchor to bring the user back to the home page when clicked. 
-![Home Page](https://github.com/JakePennell/quiz-time/blob/main/assets/quiz-time-amiresponsive.jpeg)
+- The big, bold heading here starts off with a challenge for the user to gain buy in. 
+- The colour scheme is clearly set out with a dark background against an almost neon blue that is reminiscent of old school gaming.
+- The use of Font Awesome icons makes the page more visually appealing.
+- The Leaderboard button is intentionally a contrasting colour. The gold-like colour links well with the trophy icon and everyone is aiming to win.
+![Home Page](https://github.com/JakePennell/quiz-time/blob/main/assets/images/home-page.jpeg)
 
-### Navigation
-- The Navigation Bar is a clear and concise directory with fully working links to the Home, Gallery and Contact Us pages. 
-- It is style with an underline for the active page and when hovered over, it changes colour to the neon purple that appears subtly throughout the website.
+### The Game Page
+- The game page is a continuation of the main colour theme. 
+- The inclusion bar is a visually stimulating addition that counts the users progress throughout the game.
+- The users score is added up and displayed on the top right to monitor player success.
+- One of my favourite feature is fact the correct answers highlight green, and the incorrect answers highlight red. 
+![Game Page](https://github.com/JakePennell/quiz-time/blob/main/assets/images/game-page.jpeg)
+#### Correct Answer
+![Correct Answer](https://github.com/JakePennell/quiz-time/blob/main/assets/images/correct-answer.jpeg)
+#### Incorrect Answer
+![Incorrect Answer](https://github.com/JakePennell/quiz-time/blob/main/assets/images/incorrect-answer.jpeg)
 
-![Logo and Nav Bar Screenshot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/logo-nav-readme.png)
+### The End Page
 
-### Hero Image
-- The Hero Image is a powerful image that draws the viewers attention to the fact this website is designed with boxing in mind. 
-- The animation used to slowly zoom out gives it added visual appeal.
-- The overlying text states in clear and simple terms what the business is and where it is based. 
+![End Page](https://github.com/JakePennell/quiz-time/blob/main/assets/images/end-page.jpeg)
 
-![Hero image with text overlay Screenshot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/hero-image-readme.png)
+### The Leaderboard
 
-### About Us Bio
-- The About Us section is a basic 'bio' of the business.
-- It is designed to portray the message that this club is accessible to all ages and skill levels. 
-- The styling is in keeping with the general them.
-- I have included a call to action by signing up for a free class. This is delivered via a working link to the contact us page. Highlighted by bold and colourful text.
+![The Leaderboard](https://github.com/JakePennell/quiz-time/blob/main/assets/images/leaderboard.jpeg)
 
-### About Us Image 
-- This black and white image of a man boxing serves to break up the about us section and the timetable. Without this, the home page would be too wordy and not visually appealing.  
-
-![About Us Screenshot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/about-us-readme.png)
-
-### Timetable
-- The simple box method works really well to show the viewer what classes are available and when. 
-- The icons are an added bit of visuals to make the section more interesting viewing. 
-
-![Timetable Screenshot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/timetable-readme.png)
-
-### Contact Us
-- The Contact Us section provides the businesses address and contact details, making it easy for the viewer to make contact. 
-
-### Footer
-- The footer is a simple but effective selection of fully working social media links, displayed as icons.
-- The icons are style similarly to the Nav options, in that they highlight in purple when hovered over. 
-
-![Contact Us and Footer Screenshot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/contact-us-footer-readme.png)
-
-## Gallery 
-
-- The Gallery page is used to show the viewer what they can expect at one of the classes. 
-- The styling is simple but effective with a tiled effect, images separated by a thin white border. 
-
-![Gallery Page Screenhot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/gallery-readme.png)
-
-## Contact Us Page
-
-- As mentioned in the About Us section, the website offers the viewer the chance to claim a free class. 
-- This is achieved by completing the contact form and selecting the desired goal. Fitness, Boxing Skills or Self-defence. 
-- I have used the https://formdump.codeinstitute.net as the destination for the submitted data as it is just a 'dummy' form.
-
-![Contact Us Page Screenhot](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/contact-us-readme.png)
 
 ## Future Features
 
