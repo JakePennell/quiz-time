@@ -69,7 +69,7 @@ Testing was a crucial part of my process to ensure my website performed as well 
 3. leaderboard.js
 
 ### Lighthouse
-- My lighthouse scores are very strong. Particularly the accessibility score which is 96. 
+- I am really pleased to have such strong Lighthouse scores:
 
 ![Lighthouse](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/lighthouse-readme.png)
 
