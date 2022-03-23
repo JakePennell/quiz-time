@@ -70,14 +70,14 @@ Testing was a crucial part of my process to ensure my website performed as well 
 
 ### Lighthouse
 - I am really pleased to have such strong Lighthouse scores:
-![Lighthouse]()
+![Lighthouse](https://github.com/JakePennell/quiz-time/blob/main/assets/images/quiz-time-lighthouse.jpeg)
 
 ## Bugs
 
 I encountered several bugs along my journey. The main issues were around content display and responsiveness.
-- Section Heights: I had originally given each section of a defined height. This meant that although they looked fine on my desktop, they would not respond to my effort to make the website responsive on different devises. This was resolved by removing the height value on various sections. 
-- My navigation links overlapped on smaller devices. My initial solution was to reduce the text size but that negatively affected the aesthetics of the site. Therefore, to fix this I used the display: flex function to re-order the Nav links. 
-- My Social Media links were also problematic as they were stacking on smaller devices. This was due to unnecessarily large border and margins. When these were reduced, the links lined up a behaved how I intended. 
+- Text and button sizes - I found that the text (H1s & H2s) and buttons were very diffucilt to get responsive on all device sizes. I fixed this by added media queries for various differnet max-widths and using bepsoke sizing on each. 
+- Socre showing on Leaderboard - I spent a long time trying to determine why my scores, once saved, did not appear on my Leaderboard. The fix was simple but took me a long time to find. I had linked the wrong .js file. The save function was trying to send the score and user name to game.js, not leaderboard.js. The error was my file paths. 
+- Displaying my questions - I created my first question with holiding text which worked fine. However, when I replaced it with my 10 actual questions that I had written on a seperate document, it still displayed the placeholder text. The fix here was again quite simple. I had used a mix of different quotation marks (" and ') which lead to the questions not being registered.
 
 ## Unfixed Bugs
 
@@ -91,17 +91,20 @@ This website was deployed to GitHub pages. The steps to deploy are as follows:
 2. From the source section drop-down menu, select the Master Branch.
 3. Once the Master Branch has been selected, the page provided the link to the completed website.
 
-- Here is the link to the repository: [My Repository](https://github.com/JakePennell/the-box-hub)
-- Here is the link to the live website: [The Box Hub](https://jakepennell.github.io/the-box-hub/)
+- Here is the link to the repository: [My Repository](https://github.com/JakePennell/quiz-time)
+- Here is the link to the live website: [Quiz Time!](https://jakepennell.github.io/quiz-time/)
 
 ## Credits
 
 ### Content
 - The Slack Community were amazing and helped me fix bugs and improve my designs throughout my project.
 - My mentor Jack gave me numerous suggestions on layout and section sizing to make my website more visually appealing. 
+- I utilised a number of really useful guides & tutorials from various YouTubeaccounts. Specifically:
+1. [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
+2. [Code Instinct](https://www.youtube.com/c/CodeInstinct)
+3. [Free Code Camp](https://www.youtube.com/c/Freecodecamp)
 - I used W3C regularly for bug fixes and suggested features.
-- The code in the CI Love Running Project served as inspiration for my website within many places. No coded directly used but used as inspiration to create my own.
 
 ### Media
-- All my images are from: [Pexels](https://www.pexels.com/)
 - All my Icons are from : [Font Awesome](https://fontawesome.com/)
+- My Font is from : [Google Fonts](https://fonts.google.com/)
