@@ -10,39 +10,12 @@ You can see my website here: [Quiz Time!](https://jakepennell.github.io/quiz-tim
 
 ![Am I Responsive Image](https://github.com/JakePennell/quiz-time/blob/main/assets/quiz-time-amiresponsive.jpeg)
 
-## User Experience (UX)
-
-### User Stories
-
-#### First Time Visitors
-- As a First Time Visitor, I want it to be easy to understand what the purpose of the site is. 
-- As a First Time Visitor, I want to be able to find my around the website easily using simple navigation buttons.
-- As a First Time Visitor, I want to be able to easily understand my score.
-
-#### Returning Visitor Goals
-- As a Returning Visitor, I want to be able to measure my improvment by comparing scores.
-- As a Returning Visitor, I want to navigate the site without any real thought.
-
-#### Frequent User Goals
-- As a Frequent User, I want to check if there has been any changes to the leaderboard.
-- As a Frequent User, I want feel part of the community by competing against other users.
-
-## Design
-
-#### Colour Scheme
-- I have used a very distinctive colour scheme t catch the users eye. The dark background coupled with the bright, almost neon colours, are very striking. 
-- The leaderboard is a gold colour to match the throphy asthetic. 
-### Typography
-- I have used Kanit as my main font, which  imported from Google Fonts. Also, Sans Serif acting as a fallback if the fonts aren't imported correctly. 
-- I chose Kanit as I beleive it has strong game vibes which is what my website aims to acheive. 
-
-BREAK HERE
-
 ## Existing Features
 
-### Logo
+### The Home Page
 - The Logo I created is a strong, bold logo that sets the theme for the whole project. 
 - It acts as an anchor to bring the user back to the home page when clicked. 
+![Home Page](https://github.com/JakePennell/quiz-time/blob/main/assets/quiz-time-amiresponsive.jpeg)
 
 ### Navigation
 - The Navigation Bar is a clear and concise directory with fully working links to the Home, Gallery and Contact Us pages. 
