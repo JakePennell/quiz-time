@@ -31,11 +31,17 @@ You can see my website here: [Quiz Time!](https://jakepennell.github.io/quiz-tim
 ![Incorrect Answer](https://github.com/JakePennell/quiz-time/blob/main/assets/images/incorrect-answer.jpeg)
 
 ### The End Page
-
+- The end page brings the quiz experience to a nice close. 
+- The user is presented with their score and is encouraged to save the score. Alternetievly, they can play the quiz again for head back to the home page.
+- If the customer choses to save their score they can enter their name so it is saved with their score to the leaderboard.
+- The handy 'disable' function on the save button means they cannot save without enterng their name. 
+- Again, by using icons it brings the options to life for the user and adds visual appeal. 
 ![End Page](https://github.com/JakePennell/quiz-time/blob/main/assets/images/end-page.jpeg)
 
 ### The Leaderboard
-
+- The final feature to mention is he Leaderboard.
+- This is an important part of the project to include this function as it brings the player back to play again. 
+- The top 5 players and their score will show at any one time. 
 ![The Leaderboard](https://github.com/JakePennell/quiz-time/blob/main/assets/images/leaderboard.jpeg)
 
 
