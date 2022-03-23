@@ -47,14 +47,13 @@ You can see my website here: [Quiz Time!](https://jakepennell.github.io/quiz-tim
 
 ## Future Features
 
-To further improve my website, I would like to add additional features in the future These include:
-1. A map of where the gym can be found.
-2. A 'meet the team' page with a personal bio of the gym trainers.
-3. Videos of classes in session as part of the Gallery page.
+To further improve my website, I would like to add additional features in the future. These include:
+1. Improved visuals by adding a neon glow effect to the buttons.
+2. Add different difficulty levels to make the experience more challenging.
 
 ## Testing
 
-Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. All the Navigation, Social Media and Internal links work as designed. As well as the contact us / sign up page.
+Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. With the help of friends and family, I am confident my website works responsively on all popular devices. 
 
 ### Validation
 - HTML: No errors were returned when passing through the official W3C validator.
