@@ -10,7 +10,7 @@ let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
-let availableQuestions = []
+let availableQuestions = [];
 
 //Question list written by myself.//
 let questions = [{
@@ -94,7 +94,7 @@ let questions = [{
         answer: 1,
     }
 
-]
+];
 //Set out points for correct answers and maximum question count.//
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
@@ -105,7 +105,7 @@ startGame = () => {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
-}
+};
 
 //Call new question once each completed.//
 getNewQuestion = () => {
@@ -115,7 +115,7 @@ getNewQuestion = () => {
         return window.location.assign('end.html');
     }
 
-    questionCounter++
+    questionCounter++;
 
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
@@ -127,41 +127,41 @@ getNewQuestion = () => {
     choices.forEach(choice => {
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
-    })
+    });
 
     availableQuestions.splice(questionIndex, 1);
 
     acceptingAnswers = true;
-}
+};
 
 //Determine correct or incorrect result.//
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        if (!acceptingAnswers) return
+        if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
-        const selectedChoice = e.target
+        const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(SCORE_POINTS);
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
-        }, 1000)
-    })
-})
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 1000);
+    });
+});
 
 //Adds score to live score tracker.//
 incrementScore = num => {
-    score += num
-    scoreText.innerText = score
-}
+    score += num;
+    scoreText.innerText = score;
+};
 
-startGame()
+startGame();
