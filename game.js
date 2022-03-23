@@ -22,7 +22,7 @@ let questions = [{
         answer: 1,
     },
     {
-        question: 'Which country won the first ever FIFA World Cup in 1930 ?',
+        question: 'Which country won the first ever FIFA World Cup in 1930?',
         choice1: 'Spain',
         choice2: 'Brazil',
         choice3: 'Uruguay',
@@ -30,7 +30,7 @@ let questions = [{
         answer: 3,
     },
     {
-        question: 'Which nuts are used in marzipan ?',
+        question: 'Which nuts are used in marzipan?',
         choice1: 'Almonds',
         choice2: 'Brazil Nuts',
         choice3: 'Pecans',
@@ -38,7 +38,7 @@ let questions = [{
         answer: 1,
     },
     {
-        question: 'Which actor played Private Ryan in Saving Private Ryan ?',
+        question: 'Which actor played Private Ryan in Saving Private Ryan?',
         choice1: 'Tom Hanks',
         choice2: 'Vin Disel',
         choice3: 'Edward Norton',
@@ -46,7 +46,7 @@ let questions = [{
         answer: 4,
     },
     {
-        question: 'What is 5 x 5 x 5 ?',
+        question: 'What is 5 x 5 x 5?',
         choice1: '100',
         choice2: '125',
         choice3: '150',
@@ -54,7 +54,7 @@ let questions = [{
         answer: 2,
     },
     {
-        question: 'Which spirit is used in a Pina Colada cocktail ?',
+        question: 'Which spirit is used in a Pina Colada cocktail?',
         choice1: 'Vodka',
         choice2: 'Gin',
         choice3: 'Whisky',
@@ -62,7 +62,7 @@ let questions = [{
         answer: 4,
     },
     {
-        question: 'Foo Fighters frontman Dave Grohl started out in which other legendary band ?',
+        question: 'Foo Fighters frontman Dave Grohl started out in which other legendary band?',
         choice1: 'The Beatles',
         choice2: 'Slipknot',
         choice3: 'Nirvana',
@@ -70,7 +70,7 @@ let questions = [{
         answer: 3,
     },
     {
-        question: 'What is the collective noun for group of Crows ?',
+        question: 'What is the collective noun for a group of Crows ?',
         choice1: 'Bunch',
         choice2: 'Mob',
         choice3: 'Murder',
@@ -78,7 +78,7 @@ let questions = [{
         answer: 3,
     },
     {
-        question: 'How many bones are in an adult human body ?',
+        question: 'How many bones are in an adult human body?',
         choice1: '201',
         choice2: '206',
         choice3: '233',
@@ -86,7 +86,7 @@ let questions = [{
         answer: 2,
     },
     {
-        question: 'What is the most used colour in national flags ?',
+        question: 'What is the most used colour in national flags?',
         choice1: 'Red',
         choice2: 'Blue',
         choice3: 'White',
