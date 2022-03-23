@@ -70,8 +70,7 @@ Testing was a crucial part of my process to ensure my website performed as well 
 
 ### Lighthouse
 - I am really pleased to have such strong Lighthouse scores:
-
-![Lighthouse](https://github.com/JakePennell/the-box-hub/blob/main/assets/images/lighthouse-readme.png)
+![Lighthouse]()
 
 ## Bugs
 
