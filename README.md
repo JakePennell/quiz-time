@@ -56,8 +56,17 @@ To further improve my website, I would like to add additional features in the fu
 Testing was a crucial part of my process to ensure my website performed as well as possible. Below I have detailed the steps I took to test my site comprehensively. I successfully tested my website in the following browsers: Chrome, Safari & Firefox. With the help of friends and family, I am confident my website works responsively on all popular devices. 
 
 ### Validation
-- HTML: No errors were returned when passing through the official W3C validator.
-- CSS: No errors were found when passing through the official W3C validator.
+- HTML: No errors were returned when passing through the official W3C validator. Files tested:
+1. index.html
+2. game.html
+3. end.html
+4. leaderboard.html
+- CSS: No errors were found when passing through the official W3C validator. Files tested:
+1. style.css
+- JavaScrip: No errors were returned when passing through the official JShint validator. Files tested:
+1. game.js
+2. end.js
+3. leaderboard.js
 
 ### Lighthouse
 - My lighthouse scores are very strong. Particularly the accessibility score which is 96. 
