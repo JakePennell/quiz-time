@@ -86,7 +86,7 @@ I encountered several bugs along my journey. The main issues were around content
 
 ## Unfixed Bugs
 
-I have no unfixed bugs. 
+The only bug that remains in my project is on the Leaderboard. Whilst it successfully saves the scoe of the playthrough initially, it does not remain on the Leaderboard once the user leaves. Therefore, the Leaderboard does not show the top scores just the most recent user score. This is a future development to have at leats the top 5 high scores showing. 
 
 ## Deployment 
 
@@ -104,11 +104,12 @@ This website was deployed to GitHub pages. The steps to deploy are as follows:
 ### Content
 - The Slack Community were amazing and helped me fix bugs and improve my designs throughout my project.
 - My mentor Jack gave me numerous suggestions on layout and section sizing to make my website more visually appealing. 
+- I used W3C regularly for bug fixes and suggested features.
 - I utilised a number of really useful guides & tutorials from various YouTube accounts. Specifically:
 1. [Brian Designs](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
 2. [Code Instinct](https://www.youtube.com/c/CodeInstinct)
 3. [Free Code Camp](https://www.youtube.com/c/Freecodecamp)
-- I used W3C regularly for bug fixes and suggested features.
+
 
 ### Media
 - All my Icons are from: [Font Awesome](https://fontawesome.com/)
