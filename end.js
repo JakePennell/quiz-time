@@ -1,3 +1,4 @@
+//Credit: The code for this section draws inspiration from YouTube tutorials from various content creators: Brian Designs, Free Code Camp and Code Instinct. Links on README.//
 //Create basic const functions.//
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');
