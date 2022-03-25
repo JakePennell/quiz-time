@@ -72,6 +72,11 @@ Testing was a crucial part of my process to ensure my website performed as well 
 - I am really pleased to have such strong Lighthouse scores:
 ![Lighthouse](https://github.com/JakePennell/quiz-time/blob/main/assets/images/quiz-time-lighthouse.jpeg)
 
+### Manual Testing
+- By playing through my quiz multiple times I came accross a number of issues. Here are a few examples of what I found during manual testing:
+1. Users were able to save their score without including a name, making the save function pointless. To combat this, I disabled the save function until text had been entered into the name bar. 
+2. The questions had errors in both grammer and spelling. Once noticed, I corrected to ensure a clean, professional experience.  
+
 ## Bugs
 
 I encountered several bugs along my journey. The main issues were around content display and responsiveness.
