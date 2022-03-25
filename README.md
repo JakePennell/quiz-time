@@ -8,7 +8,7 @@ This Leaderboard element adds a much needed sense of competition and will inspir
 
 You can see my website here: [Quiz Time!](https://jakepennell.github.io/quiz-time/)
 
-![Am I Responsive Image](https://github.com/JakePennell/quiz-time/blob/main/assets/quiz-time-amiresponsive.jpeg)
+![Am I Responsive Image]()
 
 ## Existing Features
 
